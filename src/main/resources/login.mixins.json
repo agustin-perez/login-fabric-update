@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "me.bronzeisunbreakable.login.mixin",
+  "server": [
+    "PlayerManagerMixin",
+    "ServerPlayNetworkHandlerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

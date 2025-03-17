@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "login",
+  "version": "${version}",
+
+  "name": "Login",
+  "description": "Protection for offline-mode servers",
+  "authors": [
+    "bronzeisunbreakable"
+  ],
+  "contact": {
+    "homepage": "https://github.com/agustin-perez/login-fabric-update",
+    "sources": "https://github.com/agustin-perez/login-fabric-update",
+    "issues": "https://github.com/agustin-perez/login-fabric-update/issues"
+  },
+
+  "license": "MIT",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "me.bronzeisunbreakable.login.LoginMod"
+    ]
+  },
+  "mixins": [
+    "login.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "fabric": "*",
+    "minecraft": "1.20.x"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
