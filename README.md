@@ -1,11 +1,11 @@
-# **Easy Whitelist Forge version**
+# **LoginMod for Fabric**
 Fabric mod for Minecraft: Java Edition to protect offline mode servers adding /login and /register. This is a server-side mod, clients don't have to download it.
 
 Minecraft version: 1.20.1
 
 Fabric version 0.16.10
 
-###Features:
+### Features:
 - Players are invulnerable until they log in
 - Players can't interact with the world until they log in
 - Players can't move until they log in
